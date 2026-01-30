@@ -17,16 +17,16 @@ Node3.next = Node4
 
 # #create a new and insert at the beginning
 head = Node1
-# start_new_node = Node(50)
-# start_new_node.next = head
-# head = start_new_node
+start_new_node = Node(50)
+start_new_node.next = head
+head = start_new_node
 
-# #create a new and insert at the end
-# end_new_node = Node(60)
-# curr = head
-# while curr.next is not None:
-#     curr = curr.next
-# curr.next = end_new_node
+#create a new and insert at the end
+end_new_node = Node(60)
+curr = head
+while curr.next is not None:
+    curr = curr.next
+curr.next = end_new_node
 
 #create a new and insert at a given position
 position_new_node = Node(70)

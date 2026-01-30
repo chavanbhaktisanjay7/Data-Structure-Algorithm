@@ -1,6 +1,6 @@
 #search for a element in linked list
-#create a Node Class
 
+#create a Node Class
 class Node:
     def __init__(self, data):
         self.data = data
@@ -32,4 +32,5 @@ key = 30
 if search_elemn(head, key):
     print(f"{key} is present in linked list")           
 
-
+else:
+    print(f"{key} is not present in linked list")

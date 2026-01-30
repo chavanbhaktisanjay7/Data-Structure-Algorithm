@@ -1,0 +1,15 @@
+Prac1 - 
+    Search for an element in a Linked List
+Prac2 - 
+    Create a singly linked list with 5 nodes and print all elements.
+Prac3 -  
+
+
+
+
+Create a singly linked list with 5 nodes and print all elements.
+Insert a node at the beginning of a singly linked list.
+Insert a node at the end of a singly linked list.
+Insert a node at a given position (index).
+Count the number of nodes in the linked list.
+Search for an element in the linked list (linear search).
