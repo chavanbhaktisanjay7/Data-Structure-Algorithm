@@ -20,7 +20,7 @@ Node3.next = Node4
 head = Node1
 
 #create a new node and insert at the end
-new_node = Node("new node")
+new_node = Node(50)
 curr = head
 while curr.next is not None:
     curr = curr.next

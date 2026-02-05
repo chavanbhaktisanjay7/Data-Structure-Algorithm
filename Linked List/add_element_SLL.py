@@ -39,10 +39,10 @@ while count < position-1 and curr is not None:
 position_new_node.next = curr.next
 curr.next = position_new_node   
 
-
 #print the curr traversed linkd list
 curr = head
 while curr is not None:
     print(curr.data, end = " -> " )
     curr = curr.next
 print("None") 
+
